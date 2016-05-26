@@ -1,0 +1,53 @@
+div {
+	width: 658px; /* 184*3 + 52*2 + 2 */
+	overflow: hidden; 
+   }
+
+ul {
+	width: 708px; /* 184*3 + 52*3 */	
+	background: #f3e9e0;
+	margin: -43px 0 -43px;
+	padding: 0;
+	overflow: hidden;
+	
+	
+   }
+
+li {
+	width: 184px; /*158 + 16 + 16*/  
+	float: left;
+	border-bottom: 1px solid #c6b6ae;   
+	padding: 43px 52px 43px 0;  
+	list-style: none; 
+   }
+
+li img {
+	width: 158px;
+	height: 139px; 
+	background: #ede1ce;
+	display: block;	
+	border: 1px solid #d8c8ba;
+	padding: 13px;
+	
+}
+
+span {
+	font: 12px Arial; 
+	border: 1px solid #d8c8ba;
+	background: #f6eee2;
+	width: 158px;
+	padding: 3px 13px;
+	position: absolute;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+}
+
+a:hover span {
+	white-space:normal; 
+}	
+
+a { 
+	text-decoration: none; 
+	color: #353338;
+} 
