@@ -1,16 +1,18 @@
 body {
 	height: 100vh;
-	background-image: url(../images/circle.png);
-	background-repeat: no-repeat;
-	background-position: center center;
 }
 
 main {
-	display: block;
-    
+	width: 320px;
+	height: 320px;
+	background: url(../images/circle.png);
+	position: relative;
+	top: 25vh;
+	left: 40vw;
 
-
+	text-align: center;
 }
+
 
 h1 {
 	font-family: Trajan Pro;
@@ -24,6 +26,7 @@ h2 {
 	font-size: 17px;
 	font-weight: bold;
 	color: #430400;
+	
 }
 
 a {
@@ -32,16 +35,10 @@ a {
 	font-weight: bold;
 	color: #430400;
 	text-decoration: none;
+
 }
 
 a:hover { 
     text-decoration: underline;
 }
 
-#top-line {
-	background: url(../images/top-line.png);
-}
-
-#bottom-line {
-	background: url(../images/bottom-line.png);
-}
