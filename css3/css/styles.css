@@ -9,24 +9,30 @@ main {
 	position: relative;
 	top: 25vh;
 	left: 40vw;
-
 	text-align: center;
 }
 
-
 h1 {
+	padding-top: 90px;
 	font-family: Trajan Pro;
 	font-size: 100px;
 	font-weight: bold;
-	//color: #fff;
+	color: #fff;
+	margin-bottom: -13px;
 }
 
 h2 {
+	padding-top: 10px;
 	font-family: Trajan Pro;
 	font-size: 17px;
 	font-weight: bold;
+	line-height: normal;
 	color: #430400;
 	
+}
+ 
+p {
+	padding-top: 22px;
 }
 
 a {
@@ -35,6 +41,7 @@ a {
 	font-weight: bold;
 	color: #430400;
 	text-decoration: none;
+	
 
 }
 
