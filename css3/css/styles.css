@@ -1,0 +1,47 @@
+body {
+	height: 100vh;
+	background-image: url(../images/circle.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+main {
+	display: block;
+    
+
+
+}
+
+h1 {
+	font-family: Trajan Pro;
+	font-size: 100px;
+	font-weight: bold;
+	//color: #fff;
+}
+
+h2 {
+	font-family: Trajan Pro;
+	font-size: 17px;
+	font-weight: bold;
+	color: #430400;
+}
+
+a {
+	font-family: Trajan Pro;
+	font-size: 15px;
+	font-weight: bold;
+	color: #430400;
+	text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+#top-line {
+	background: url(../images/top-line.png);
+}
+
+#bottom-line {
+	background: url(../images/bottom-line.png);
+}

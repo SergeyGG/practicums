@@ -9,7 +9,7 @@ html {
 
 body {
 	margin: 0;
-	
+
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
@@ -17,12 +17,13 @@ body {
 }
 
 header {
+
 	width: 100%;
 	min-width: 600px;
 	height: 61px;
 	border: 3px solid #dc864b;
 	box-sizing: border-box;
-	margin: 0 auto 19px;
+	//margin: 0 auto 19px;
 	
 	display: -webkit-flex;
 	display: flex;
@@ -31,7 +32,6 @@ header {
 main {
 	width: 100%;
 	min-width: 600px;
-
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
@@ -39,20 +39,28 @@ main {
 }
 
 main > nav {
-	width: 144px;
-	border: 3px solid #6895b4;
+	width: 193px;
+	background: url(../images/c_tl.gif) no-repeat top, 
+				url(../images/c_bl.gif) no-repeat bottom,
+				url(../images/bg_line.gif) repeat-y;
+	margin: 19px auto 0;
 	box-sizing: border-box;
+
 
 	display: -webkit-flex;
 	display: flex;
 }
 
 main > article {
+	//width: 100%;
+	background: url(../images/c_r.gif) no-repeat top right, 
+				url(../images/c_r.gif) no-repeat bottom right,
+				url(../images/bg_line3.gif) repeat-x top,
+				url(../images/bg_line3.gif) repeat-x bottom,
+				url(../images/bg_line2ie.gif) repeat-y right;
+	margin: 29px auto 0;
 	flex: 1 0 441px;
-	margin-left: 15px;
-	border: 3px solid #c0c0c0; //test
-	background-image: url(c_r.gif); //
-	
+			
 	display: -webkit-flex;
 	display: flex;
 }
@@ -63,6 +71,6 @@ footer {
 	height: 41px;
 	border: 3px solid #a982a1;
 	box-sizing: border-box;
-	margin: 21px auto 0;
+	//margin: 21px auto 0;
 	margin-top: 21px;
 }
