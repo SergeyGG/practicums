@@ -1,3 +1,7 @@
+html {
+	background: repeating-linear-gradient(135deg, #efefef, #efefef 1px, #cccccc 1px, #cccccc 9px);
+}
+
 body {
 	height: 100vh;
 
@@ -9,9 +13,7 @@ body {
     align-items: center;
     justify-content: center; 
 	
-	background: repeating-linear-gradient(135deg, #efefef, #efefef 1px, #cccccc 1px, #cccccc 9px);
-
-  
+	
 }
 
 div {
@@ -21,49 +23,47 @@ div {
 	background: radial-gradient(circle at 65% 15%, #c95438, #910806);
 
 	display: flex;
-    align-items: center;
-    justify-content: center; 
     flex-direction: column;
-
 }
 
 h1 {
-	padding-top: 85px;
+	margin-top: 97px;
+	margin-bottom: -12px;
 	font-size: 100px;
 	color: #fff;
+	text-shadow: black 0 0 2px;
+	
 }
 
 h2 {
-	padding-top: -20px;
 	font-size: 17px;
 	color: #430400;
+	text-shadow: 1px 1px 7px white;
 }
- 
-p {
-	padding-top: 20px;
-}
+
 
 a {
-	
 	font-size: 15px;
-	
 	color: #430400;
 	text-decoration: none;
-	
-
+	text-shadow: 1px 1px 7px white;
 }
 
 a:hover { 
     text-decoration: underline;
+    text-shadow: 1px 1px 7px white;
 }
 
 #hr-top {
+	margin-bottom: 14px;	
 	width: 262px;
-	background-color: #95140c;
+	color: #95140c;
 }
 
 #hr-bottom {
+	margin-top: 12px;	
+	margin-bottom: 25px;
 	width: 131px;
-	background: #95140c;
+	color: #95140c;
 }
 
