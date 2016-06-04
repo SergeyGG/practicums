@@ -1,0 +1,69 @@
+body {
+	height: 100vh;
+
+	font-family: Trajan Pro;
+	font-weight: bold;
+	text-align: center;
+
+	display: flex;
+    align-items: center;
+    justify-content: center; 
+	
+	background: repeating-linear-gradient(135deg, #efefef, #efefef 1px, #cccccc 1px, #cccccc 9px);
+
+  
+}
+
+div {
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	background: radial-gradient(circle at 65% 15%, #c95438, #910806);
+
+	display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+
+}
+
+h1 {
+	padding-top: 85px;
+	font-size: 100px;
+	color: #fff;
+}
+
+h2 {
+	padding-top: -20px;
+	font-size: 17px;
+	color: #430400;
+}
+ 
+p {
+	padding-top: 20px;
+}
+
+a {
+	
+	font-size: 15px;
+	
+	color: #430400;
+	text-decoration: none;
+	
+
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+#hr-top {
+	width: 262px;
+	background-color: #95140c;
+}
+
+#hr-bottom {
+	width: 131px;
+	background: #95140c;
+}
+
