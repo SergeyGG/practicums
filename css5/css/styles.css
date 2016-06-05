@@ -1,6 +1,12 @@
+@font-face {
+	    font-family: Helvetica LT Std Cond; 
+	    src: url(../fonts/HelveticaLTStd-Cond.otf); 
+}
+
 body {
 	height: 100vh;
-	background-color: #dee0e0;
+	background: #dee0e0 url(../images/bg.jpg) repeat;
+	//background-images: ;
 	
 	display: flex;
     align-items: center;
@@ -11,18 +17,140 @@ body {
 main {
 	width: 264px;
 	height: 225px;
-	border: 1px solid; //test
+	
 
 	align-items: center;
     justify-content: center; 
     flex-direction: column;
-	
+
+    font-family: Helvetica LT Std Cond;
+}
+
+header {
+	margin-left: -72px;
+}
+
+img {
+	margin-right: 12px;
+	margin-top: 3px;
+}
+
+p {
+	float: left;
 }
 
 h1 {
 	font-size: 30px;
+	color: #8d8d8d;
+	text-shadow: 0px 1px 1px white;
 }
 
 h2 {
 	font-size: 15px;
+	color: #8d8d8d;
+	text-shadow: 0px 1px 1px white;
+}
+
+.field {
+	width: 262px;
+	height: 33px;
+	border: 1px solid #e0e3e3;
+	margin-top: 10px;
+	font-size: 15px;
+	text-indent: 14px;
+	background-color: #f0f1f1; 
+	font-family: Helvetica LT Std Cond;	
+}
+
+.field:focus {
+	outline: 1px solid #ced0d0;
+}
+
+input[type="checkbox"] {
+	margin: 15px 6px 15px 0;
+}
+
+
+
+label {
+	font-size: 12px;
+	color: #8d8d8d;
+	text-shadow: 0px 1px 1px white;
+}
+
+button {
+	height: 30px;
+	float: right;
+	font-size: 13px;
+	color: #8d8d8d;
+	text-shadow: 0px 1px 1px white;
+	margin-top: 10px;
+	margin-left: 8px;
+	border: 1px solid #e0e3e3;
+	background: linear-gradient(to top, #dddee0, #f0f0f0);
+	font-family: Helvetica LT Std Cond;
+	
+}
+
+#hr-top {
+	border: none; 
+    color: #8d8d8d;
+    background-color: #8d8d8d; 
+    height: 1px; 
+    box-shadow: 0px 1px 1px white;
+    margin-bottom: 0;
+}
+
+#hr-bottom {
+	border: none; 
+    color: #c2c3c2;
+    background-color: #c2c3c2; 
+    height: 1px; 
+    box-shadow: 0px 1px 1px white;
+}
+
+/*sprite social*/
+
+#social {
+	position: relative;
+	float: right;
+	margin-right: 40px;
+}
+
+#social li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#social li, #social a {
+    height: 13px;
+    display: block;
+}
+
+#facebook {
+    left: 0px;
+    width: 15px;
+    background: url('../images/social.png') 0 0;
+}
+
+
+
+#google {
+    left: 10px;
+    width: 15px;
+    background: url('../images/social.png') 15px 0;
+}
+
+
+#twitter {
+    left: 30px;
+    width: 15px;
+    background: url('../images/social.png') 30px 0;
+}
+
+#qee {
+	float: right;	
 }
