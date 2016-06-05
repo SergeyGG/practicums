@@ -6,12 +6,10 @@
 body {
 	height: 100vh;
 	background: #dee0e0 url(../images/bg.jpg) repeat;
-	//background-images: ;
-	
+		
 	display: flex;
     align-items: center;
     justify-content: center; 
-
 }
 
 main {
@@ -137,7 +135,6 @@ button {
 }
 
 
-
 #google {
     left: 10px;
     width: 15px;
@@ -151,6 +148,3 @@ button {
     background: url('../images/social.png') 30px 0;
 }
 
-#qee {
-	float: right;	
-}
