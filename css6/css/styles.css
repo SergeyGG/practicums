@@ -165,7 +165,7 @@ width: 40%;
 }
 
 
-.cart:hover button:hover {
+.cart:hover .button:hover {
 	background: #df3232;
 	width: 76px;
 	height: 25px;
@@ -179,7 +179,7 @@ width: 40%;
 }
 
 
-.cart:hover button:active {
+.cart:hover .button:active {
 	background: linear-gradient(to top, #e13535, #f66a6a);
 	width: 76px;
 	height: 25px;
