@@ -164,9 +164,8 @@ width: 40%;
 	
 }
 
-input[type=submit]:hover,
-input[type=button]:hover,
-button:hover {
+
+.cart:hover button:hover {
 	background: #df3232;
 	width: 76px;
 	height: 25px;
@@ -179,9 +178,8 @@ button:hover {
 	
 }
 
-input[type=submit]:active,
-input[type=button]:active,
-button:active {
+
+.cart:hover button:active {
 	background: linear-gradient(to top, #e13535, #f66a6a);
 	width: 76px;
 	height: 25px;
