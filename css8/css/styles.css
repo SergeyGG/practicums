@@ -1,0 +1,93 @@
+body {
+	background:#eceff1;
+	font-family:arial;
+	font-size:14px;
+	color: #7f8c8d;
+}
+
+.nav{
+    width: 20%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.menu_adaptive{
+    margin: 20px 5px;
+    width: 148px;
+    border: 1px solid #d8d8d8;
+}
+
+
+.link_icon{
+    color: #7f8c8d;
+    text-decoration: none;
+}
+
+.menu_adaptive .link_icon{
+    display: block;
+    position: relative;
+    padding: 9px 2px 10px 35px;
+    background-color: #fff;
+    border-top: 1px solid #f0f0f0;
+}
+
+/*sprite icons*/
+.link_icon:before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image:url(../images/icon_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+.link_icon.icon1:before{
+    background-position: 0 0;
+}
+
+.link_icon.icon2:before{
+    background-position: 0 -18px;
+}
+.link_icon.icon3:before{
+    background-position: 0 -36px;
+}
+.link_icon.icon4:before{
+    background-position: 0 -54px;
+}
+.link_icon.icon5:before{
+    background-position: 0 -72px;
+}
+.link_icon.icon1:hover:before{
+    background-position: -18px 0;
+}
+.link_icon.icon2:hover:before{
+    background-position: -18px -18px;
+}
+.link_icon.icon3:hover:before{
+    background-position: -18px -36px;
+}
+.link_icon.icon4:hover:before{
+	background-position: -18px -54px;
+}
+.link_icon.icon5:hover:before{
+    background-position: -18px -72px;
+}
+
+.menu_adaptive .link_icon:hover{
+    background-color: #fafafa;
+}
+
+/*adaptive menu*/
+@media only screen and (max-width: 400px),
+only screen and (max-device-width: 400px) {
+    .menu_adaptive{
+        width: 35px;
+        overflow: hidden;
+    }
+    .menu_adaptive .link_icon{
+        white-space: nowrap;
+    }
+}
