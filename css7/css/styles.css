@@ -1,0 +1,108 @@
+body {
+	font-family:tahoma;
+	font-weight:normal;
+	font-size:13px;
+	color: #fff;
+	background:#37393e;
+}
+
+ul {
+	list-style:none;
+	width:200px;
+	margin:0 auto;
+	box-shadow: 0 0 5px #25272b;
+}
+
+ul li label {
+	border-top:1px solid ##585b63;
+	border-bottom:1px solid #292b30;
+	
+	text-shadow: 0 1px 1px #000;
+	
+	background: -webkit-linear-gradient(top, #40424b, #4b4e58);
+	background: -moz-linear-gradient(top, #40424b, #4b4e58);
+	background: -ms-linear-gradient(top, #40424b, #4b4e58);
+	background: linear-gradient(top, #40424b, #4b4e58);
+}
+
+ul li input[type='checkbox'] {
+	display: none;
+}
+
+ul li label {
+	display:block;
+	padding:12px;
+	width:200px;
+}
+
+ul li i {
+	vertical-align: middle;
+	width:20px;
+	display:inline-block;
+}
+
+ul li span {
+	display:inline;
+	float:right;
+	//padding:4px 6px;
+	
+	
+	position:relative;
+}
+
+ul li label:hover {
+	
+	background: -webkit-linear-gradient(top, #2c49c2, #3a60d1);
+	background: -moz-linear-gradient(top, #2c49c2, #3a60d1);
+	background: -ms-linear-gradient(top,#2c49c2, #3a60d1);
+	
+}
+
+
+ul li input[type='checkbox']:checked ~ label {
+	
+	background: -webkit-linear-gradient(top, #2c49c2, #3a60d1);
+	background: -moz-linear-gradient(top, #2c49c2, #3a60d1);
+	background: -ms-linear-gradient(top,#2c49c2, #3a60d1);
+	
+}
+
+
+ul li input[type='checkbox']:checked ~ .options {
+	height: auto;
+	display:block;
+	
+}
+
+ul ul {
+	background:#33363b; 
+		
+}
+
+ul ul li a {
+	display:block;
+	padding:6px 12px;
+	color:#fff;
+	text-decoration:none;
+}
+
+
+ul ul li:hover {
+	
+	background: -webkit-linear-gradient(top, #2c49c2, #3a60d1);
+	background: -moz-linear-gradient(top, #2c49c2, #3a60d1);
+	background: -ms-linear-gradient(top,#2c49c2, #3a60d1);
+	
+}
+
+ul ul li {
+	border-bottom:1px solid #25272b;
+}
+
+
+.options {
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+	

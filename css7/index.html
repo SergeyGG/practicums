@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dark menu</title>
+	<meta name="description" content="Vertical dark menu">
+	<meta name="author" content="SergeyGG">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<ul>
+	<li class="block">
+		<input type="checkbox" name="item" id="item1" />   
+		<label for="item1"><i aria-hidden="true" class="icon-home"></i> Home <span>3</span></label>
+	</li>
+	<li class="block">
+		<input type="checkbox" name="item" id="item2" />   
+		<label for="item2"><i aria-hidden="true" class="icon-gallery"></i> Gallery <span>v</span></label>
+		<ul class="options">
+			<li><a href="#"><i aria-hidden="true" class="icon-photos"></i> Photos</a></li>
+			<li><a href="#"><i aria-hidden="true" class="icon-photo-stream"></i> Photo Stream </a></li>
+			<li><a href="#"><i aria-hidden="true" class="icloud"></i> iCloud</a></li>
+		</ul>
+	</li>
+	<li class="block">
+		<input type="checkbox" name="item" id="item3" />   
+		<label for="item3"><i aria-hidden="true" class="icon-logout"></i> Logout</label>
+	</li>
+</ul>
+</body> 
+</html>
